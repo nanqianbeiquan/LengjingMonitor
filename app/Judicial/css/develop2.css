@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@media screen and (max-width: 768px) {
+    /* line 10, ../sass/main.scss */
+    html {
+        font-size: 120px;
+    }
+}
+@media screen and (max-width: 415px) {
+    /* line 15, ../sass/main.scss */
+    html {
+        font-size: 64.6875px;
+    }
+}
+@media screen and (max-width: 375px) {
+    /* line 20, ../sass/main.scss */
+    html {
+        font-size: 58.59375px;
+    }
+}
+@media screen and (max-width: 320px) {
+    /* line 25, ../sass/main.scss */
+    html {
+        font-size: 50px;
+    }
+}
+@media screen and (min-width: 768px){
+	html {
+        font-size: 120px;
+    }
+	#leftSideBar{
+		width: 6%;
+	}
+	.main{
+		/*padding:30px 20px;*/
+		width: 94%;
+		margin-left: 6%;
+	    margin-top: -10px;
+		padding: 0;
+	}
+	.sidebar{
+		font-size: 12px;
+		position: fixed;
+		left: 0px;
+		top: 55px;
+		bottom: 0px;
+	}
+}
+body{
+	margin: 0;
+	padding: 0;
+	/*background-color: #d7d7d7;*/
+	background-color: #fff;
+}
+ul, li{
+	margin: 0;
+}
+#container-fluid-main{
+	/*margin-top: 65px;*/
+	position: absolute;
+	top: 65px;
+	bottom: 0px;
+	left: 0px;
+}
+.sidebar{
+	font-size: 12px;
+	background-color: #3B3E40;
+	color: #fff;
+	/*padding: 30px 0 0 0;*/
+	padding: 0;
+}
+.sidebar h5{
+	text-align: center;
+}
+#sidepanel ul{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+}
+#sidepanel ul li{
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0 15px 20px;
+	border-bottom: 1px solid #27292a;
+    border-top: 1px solid #46494b;
+    box-shadow: inset -20px 0 10px -20px #000;
+    -webkit-box-shadow: inset -20px 0 10px -20px #000;
+    -moz-box-shadow: inset -20px 0 10px -20px #000;
+    -ms-box-shadow: inset -20px 0 10px -20px #000;
+    -o-box-shadow: inset -20px 0 10px -20px #000;
+}
+#sidepanel ul li:hover{
+	cursor: pointer;
+	background: linear-gradient(to bottom, #208ed3 0%,#0272bd 100%);
+}
+#sidepanel ul li span{
+	font-size: 25px;
+	margin-right: 20px;
+}
+a:link, a:active, a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+html,body{
+	height: 100%;
+}
+#container{
+	height: 100%;
+}
+.row{
+	height: 100%;
+}
+.main{
+	/*width: 100%;*/
+	height: 100%;
+}
+.mainContainer{
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.empty_panorama{background:url('../images/no_monitor_company.png') center no-repeat;}

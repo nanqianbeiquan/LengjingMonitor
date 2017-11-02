@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*CSS3 @media*/
+@media (min-width: 1610px) {
+    html{
+            font-size: 300px;
+    }
+}
+@media (min-width: 1371px) and (max-width: 1610px) {
+    html {
+        font-size: 250px;
+    }   
+}
+@media (min-width: 992px) and (max-width: 1370px) {
+    html {
+        font-size: 213.4375px;
+    }   
+}
+@media (min-width: 771px) and (max-width: 991px) {
+    html {
+        font-size: 154.84375px;
+    }  
+}
+@media screen and (max-width: 770px) {
+    /* line 10, ../sass/main.scss */
+    html {
+        font-size: 120px;
+    }
+}
+@media screen and (max-width: 414px) {
+    /* line 15, ../sass/main.scss */
+    html {
+        font-size: 64.6875px;
+    }  
+}
+@media screen and (max-width: 375px) {
+    /* line 20, ../sass/main.scss */
+    html {
+        font-size: 58.59375px;
+    }   
+}
+@media screen and (max-width: 320px) {
+    /* line 25, ../sass/main.scss */
+    html {
+        font-size: 50px;
+    }  
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+}
+
+/*清楚浮动*/
+.outer {
+    zoom:1;
+}    /*==for IE6/7 Maxthon2==*/
+.outer:after {clear:both;
+    content:'.';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}   /*==for FF/chrome/opera/IE8==*/
+
+/*设置对话框小三角*/
+/*.classify-name:hover::before{
+        content: " ";
+        width: 0;
+        height: 0;
+        border-width: 6px 6px 0px;
+        border-style: solid;
+        position: absolute;
+        bottom: -0.03rem;
+        border-color:#4187FE transparent transparent;
+        left: 50%;
+        margin-left: -6px;
+    }
+    .classify-name:hover{
+        background-color: #4187FE;
+        border-radius: 5px;
+        color: #fff;
+    }*/
+
+

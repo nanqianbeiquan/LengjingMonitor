@@ -1,0 +1,88 @@
+/*饼图样式设置*/
+.pieLegendText{
+	fill: #333;
+	font-size: 14px;
+}
+/*饼图样式设置*/
+
+
+/*折线图样式设置*/
+/*图例样式*/
+.pLegendText{
+	fill: #333;
+	font-size: 10px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#polylineContainer .x text{
+	fill: #333;
+	transform: rotate(-45deg)translate(-20px,0px);
+	letter-spacing:1px;
+	/*font-family: "microsoft yahei";*/
+	font-size: 12px;
+}
+
+#polylineContainer .y text{
+	fill: #333;
+	font-size: 12px;
+	/*transform: translate(0px,15px);*/
+}
+
+#executedPolylineContainer .x text{
+	fill: #333;
+	transform: rotate(-45deg)translate(-20px,0px);
+	letter-spacing:1px;
+	/*font-family: "microsoft yahei";*/
+	font-size: 12px;
+}
+
+#executedPolylineContainer .y text{
+	fill: #333;
+	font-size: 12px;
+	/*transform: translate(0px,15px);*/
+}
+
+#executedTotalPolylineContainer .x text{
+	fill: #333;
+	transform: rotate(-45deg)translate(-20px,0px);
+	letter-spacing:1px;
+	/*font-family: "microsoft yahei";*/
+	font-size: 12px;
+}
+
+#executedTotalPolylineContainer .y text{
+	fill: #333;
+	font-size: 12px;
+	/*transform: translate(0px,15px);*/
+}
+
+
+/*鼠标提示框样式*/
+.mouseTooltip{
+	position: absolute;
+	font-size: 14px;
+	color: #fff;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #aaa;
+	border-radius: 5px;
+}
+.mouseTooltip1{
+	position: absolute;
+	font-size: 14px;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #aaa;
+	border-radius: 5px;
+}

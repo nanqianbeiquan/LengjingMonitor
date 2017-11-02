@@ -1,0 +1,57 @@
+.node {
+  fill: #ddd;
+  stroke: #fff;
+}
+
+.label {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.labelBig {
+  font: 18px sans-serif;
+  text-anchor: middle;
+}
+
+.labelM {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+.labelBigM {
+  font: 18px sans-serif;
+  text-anchor: middle;
+}
+
+.mouseTooltipForMatrixTree{
+	position: absolute;
+	font-size: 14px;
+	color: #fff;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 25px;
+	background-color: #888;
+	border-radius: 5px;
+}
+.mouseTooltipForMatrixTree span{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.mouseTooltipForTreeMap{
+	position: absolute;
+	font-size: 14px;
+	color: #fff;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 25px;
+	background-color: #888;
+	border-radius: 5px;
+}
+.mouseTooltipForTreeMap span{
+	display: block;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,27 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.caseNodes {
+  stroke: #019FDE;
+}
+
+.axis path{
+	stroke: #aaa;
+}
+#legalContainer .x text{
+	fill: #333;
+	transform: rotate(-90deg)translate(-25px,-7px);
+	letter-spacing:1px;
+	/*font-family: "microsoft yahei";*/
+	font-size: 12px;
+}
+
+#legalContainer .y text{
+	fill: #aaa;
+	font-size: 12px;
+	transform: translate(0px,15px);
+}
